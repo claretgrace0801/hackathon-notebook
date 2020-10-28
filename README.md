@@ -9,7 +9,7 @@ Questions:
 6. When will Hrishi become 100% excited always?
 7. Why is Abhishek?
 8. Hmm...
-9. How big is Tenserflow?
+9. How big is Tensorflow?
 10. Main pagal hoon... f**k
 
 EAT - ENJOY - SLEEP - F**K DAILY CYCLES
