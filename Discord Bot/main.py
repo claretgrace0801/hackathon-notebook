@@ -1,7 +1,7 @@
-''' Basic Discord bot template(main.py) for use for Hackathons'''
+''' Basic Discord bot template(main.py) for use for Hackathons '''
 
 import os
-''' Importing os to run pip install'''
+''' Importing os to run pip install '''
 try:
     from discord.ext import commands
     from dotenv import load_dotenv
@@ -24,14 +24,10 @@ bot = commands.Bot(command_prefix='!')
 async def bot_init():
     print("Connected")
 
-@bot.listen('on_ready')
-async def bot_init_copy():
-    print("Connected copy")
-
 @bot.command(name='command')
 ''' Invokes this command for "!command" message '''
 async def test_function(ctx):
-''' ctx stands for context , which holds the details for the message recieved'''
+''' ctx stands for context , which holds the details for the message recieved '''
     await ctx.send("message to be sent to the channel")
     ''' 
     Waits for the command to be executed before proceeding to other
